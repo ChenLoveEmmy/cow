@@ -1,2 +1,19 @@
 server:
   port: 8001
+spring:
+  freemarker:
+    #设置编码格式
+    charset: utf-8
+    #设置文件后缀
+    suffix: .html
+    #设置html文件路径
+    template-loader-path: classpath:/templates
+    #关闭缓存，及时刷新，上线生产环境需要改为true
+    cache: false
+    #配置视图的输出HTML的contentType
+    content-type: text/html;charset=UTF-8
+    #配置freemarker的文件编码
+    default_encoding: UTF-8
+  #    加载静态资源
+  resources:
+    static-locations: classpath:/static/
