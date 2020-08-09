@@ -2,18 +2,18 @@ server:
   port: 8001
 spring:
   freemarker:
-    #ÉèÖÃ±àÂë¸ñÊ½
+    #è®¾ç½®ç¼–ç æ ¼å¼
     charset: utf-8
-    #ÉèÖÃÎÄ¼şºó×º
+    #è®¾ç½®æ–‡ä»¶åç¼€
     suffix: .html
-    #ÉèÖÃhtmlÎÄ¼şÂ·¾¶
+    #è®¾ç½®htmlæ–‡ä»¶è·¯å¾„
     template-loader-path: classpath:/templates
-    #¹Ø±Õ»º´æ£¬¼°Ê±Ë¢ĞÂ£¬ÉÏÏßÉú²ú»·¾³ĞèÒª¸ÄÎªtrue
+    #å…³é—­ç¼“å­˜ï¼ŒåŠæ—¶åˆ·æ–°ï¼Œä¸Šçº¿ç”Ÿäº§ç¯å¢ƒéœ€è¦æ”¹ä¸ºtrue
     cache: false
-    #ÅäÖÃÊÓÍ¼µÄÊä³öHTMLµÄcontentType
+    #é…ç½®è§†å›¾çš„è¾“å‡ºHTMLçš„contentType
     content-type: text/html;charset=UTF-8
-    #ÅäÖÃfreemarkerµÄÎÄ¼ş±àÂë
+    #é…ç½®freemarkerçš„æ–‡ä»¶ç¼–ç 
     default_encoding: UTF-8
-  #    ¼ÓÔØ¾²Ì¬×ÊÔ´
+  #    åŠ è½½é™æ€èµ„æº
   resources:
     static-locations: classpath:/static/
