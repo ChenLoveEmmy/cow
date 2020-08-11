@@ -15,4 +15,9 @@ public class IndexController {
     public String mainFrame() {
         return "/mainFrame";
     }
+
+    @RequestMapping(value = "/hello")
+    public String hello() {
+        return "index2";
+    }
 }
